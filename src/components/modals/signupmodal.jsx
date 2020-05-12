@@ -13,7 +13,7 @@ const signUpModal = (
         </div>
         <div className="signup-field">
           <input type="password" id="signup-password" placeholder="Input a password"></input>
-          <label for="login-password">Choose password</label>                        
+          <label for="signup-password">Choose password</label>                        
         </div>
         <button type="button" className="modal-button">Sign up</button>
       </form>

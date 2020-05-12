@@ -13,10 +13,10 @@ export default function Welcome() {
   return(
     <div id="Welcome">
       <h1>Welcome to Voyager's Log</h1>
-      <ul className="WelcomeList">
-        <li className="Wlist"><Login/></li>
-        <li className="Wlist"><SignUp/></li>          
-      </ul>
+      <nav className="WelcomeList">
+        <button type="button" className="Wlist"><Login/></button>
+        <button type="button" className="Wlist"><SignUp/></button>          
+      </nav>
     </div>
   );
 }
