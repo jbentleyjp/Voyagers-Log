@@ -1,5 +1,18 @@
 #MainPage {
-  text-align: center;
   color: #94a0af;
-
+  overflow: hidden;
 }
+.Title {
+  margin-left: auto;
+  padding-left: 25%;
+  display: inline-block;
+}
+
+.RightButton {
+  margin-right: auto;
+  padding-left: 10%;
+  display: inline-block;
+  font-weight: bolder;
+  cursor: pointer;
+}
+  

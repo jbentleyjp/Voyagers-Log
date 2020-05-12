@@ -15,8 +15,7 @@ export default function Welcome() {
       <h1>Welcome to Voyager's Log</h1>
       <ul class="WelcomeList">
         <li class="Wlist"><Login/></li>
-        <li class="Wlist"><SignUp/></li>
-          
+        <li class="Wlist"><SignUp/></li>          
       </ul>
     </div>
   );
