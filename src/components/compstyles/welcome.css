@@ -1,0 +1,17 @@
+#Welcome {
+    text-align: center;
+    color: #94a0af;
+    
+}
+
+.WelcomeList {
+    list-style: none;
+    font-weight: bolder;
+    display: inline;
+
+}
+
+.Wlist {
+padding: 1mm;
+display: inline;
+}
