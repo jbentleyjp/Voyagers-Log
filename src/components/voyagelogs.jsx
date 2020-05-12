@@ -1,4 +1,5 @@
 import React from 'react';
+import './compstyles/voyagelogs.css'
 
 
 export default function VoyageLog () {
@@ -7,16 +8,16 @@ export default function VoyageLog () {
 
   return (
     <div id="VoyageLog">
-      <div class="TextBody">
-        <div class="LogTitle"><h2>insert title here</h2></div>
-        <div class="LogDiscription">Description: </div>
-        <div class="TravelDate">Date Visited: </div>
-        <div class="Lat">Latitude: </div>
-        <div class="Long">Longitude: </div>
-        <div class="PostDate">Date Posted: </div>
+      <div className="TextBody">
+        <div className="LogTitle"><h2>insert title here</h2></div>
+        <div className="LogDiscription">Description: </div>
+        <div className="TravelDate">Date Visited: </div>
+        <div className="Lat">Latitude: </div>
+        <div className="Long">Longitude: </div>
+        <div className="PostDate">Date Posted: </div>
       </div>
-      <div class="ImgBody">
-      <div class="LogImg">
+      <div className="ImgBody">
+      <div className="LogImg">
         {/* <img src="" alt="Picture of a place you traveled."></img> */}
       </div>
       </div>
