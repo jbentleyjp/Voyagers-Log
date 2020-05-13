@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SignUpModal from './modals/signupmodal'
+import SignUpModalPortal from './modals/signupmodal'
 
 export default function SignUp () {
 
@@ -12,7 +12,7 @@ export default function SignUp () {
         setShowModal(true)
       }}      
       >Sign up
-      { showModal ? <SignUpModal /> : null }   
+      { showModal ? <SignUpModalPortal/> : null }   
       </div>
     </div>
   )
